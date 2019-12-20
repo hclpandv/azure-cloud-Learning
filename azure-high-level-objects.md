@@ -1,3 +1,5 @@
+#### Security Group
+High Level Logical Container to group all Azure resources, for management, security, billing etc 
 #### vnet
 Represents your private network into cloud
 #### Subnet
