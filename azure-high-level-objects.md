@@ -5,7 +5,7 @@ Represents your private network into cloud
 #### Subnet
 Splits your private network into subnets
 #### Gateway Subnet
-Only used for VPN
+Only used for VPN (to be discussed in Azure VPN section)
 #### Network Security Group
 Group of firewall settings
 
