@@ -7,6 +7,9 @@ Splits your private network into subnets
 #### Network Security Group
 Group of firewall settings
 
+![image](https://user-images.githubusercontent.com/13016162/71248577-2d6a2980-2341-11ea-93c1-4e0fa73865eb.png)
+
+
 * Create a virtual network with two subnets 
 
 ```powershell
