@@ -1,6 +1,9 @@
-## vnet
-
+#### vnet
 Represents your private network into cloud
+#### Subnet
+Splits your private network into subnets
+#### Network Security Group
+Group of firewall settings
 
 * Create a virtual network with two subnets 
 
