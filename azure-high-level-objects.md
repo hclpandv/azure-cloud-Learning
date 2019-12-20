@@ -4,6 +4,8 @@ High Level Logical Container to group all Azure resources, for management, secur
 Represents your private network into cloud
 #### Subnet
 Splits your private network into subnets
+#### Gateway Subnet
+Only used for VPN
 #### Network Security Group
 Group of firewall settings
 
