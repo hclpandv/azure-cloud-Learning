@@ -1,4 +1,4 @@
-#### vnet
+## vnet
 
 Represents your private network into cloud
 
@@ -17,7 +17,7 @@ The New-AzVirtualNetworkSubnetConfig cmdlet will not create any subnet on the se
 There is one subnet called frontendSubnet and one subnet called backendSubnet. 
 The New-AzVirtualNetwork cmdlet then creates a virtual network using the CIDR 10.0.0.0/16 as the address prefix and two subnets.
 
-* Create a virtual network with DNS settings --------
+* Create a virtual network with DNS settings
 ```powershell
 New-AzResourceGroup -Name TestResourceGroup -Location centralus
 $frontendSubnet = New-AzVirtualNetworkSubnetConfig -Name frontendSubnet -AddressPrefix "10.0.1.0/24"
