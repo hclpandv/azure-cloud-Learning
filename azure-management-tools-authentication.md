@@ -9,6 +9,7 @@
 3. #### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)  
 
 ```powershell
+# Powershell
 Install-Module -Name Az -AllowClobber -Scope CurrentUser
 ```
 
@@ -16,10 +17,12 @@ Install-Module -Name Az -AllowClobber -Scope CurrentUser
 4. #### Install Azure CLI (Windows MSI based Install, Ubuntu apt based --- Issues with WSL)
 
 ```powershell
+# Powershell
 Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
 ```
 
 ```bash
+# bash
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
 
