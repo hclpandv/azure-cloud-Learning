@@ -4,7 +4,7 @@
 2. #### [Azure Cloud Shell](https://shell.azure.com/)
 * Online Azure Shell  
 * Both Powershell and Bash supported  
-* Azure Module, Terraform already installed)   
+* Azure Module, Terraform already installed   
 3. #### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)  
 
 ```powershell
