@@ -27,3 +27,5 @@ az resource list --resource-group 'viki-resource-group'
 # Powershell
 Get-AzResource -ResourceGroupName viki-resource-group
 ```
+
+![image](https://user-images.githubusercontent.com/13016162/71370454-fbbcc100-25d3-11ea-8265-1dac5f586df5.png)
