@@ -1,15 +1,15 @@
 ## Azure Management Tools and Authentication
 
-#### [Azure Portal UI](https://portal.azure.com/) 
-#### [Azure Cloud Shell](https://shell.azure.com/)
-#### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)
+1. #### [Azure Portal UI](https://portal.azure.com/) 
+2. #### [Azure Cloud Shell](https://shell.azure.com/)
+3. #### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)
 
 ```powershell
 Install-Module -Name Az -AllowClobber -Scope CurrentUser
 ```
 
 
-#### Install Azure CLI (Windows MSI based Install, Ubuntu apt based --- Issues with WSL)
+4. #### Install Azure CLI (Windows MSI based Install, Ubuntu apt based --- Issues with WSL)
 
 ```powershell
 Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
@@ -22,7 +22,7 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ![image](https://user-images.githubusercontent.com/13016162/71341172-1a449d00-257f-11ea-84aa-3d0e17c102b7.png)
 
 
-#### Setting up Azure service principal with Azure CLI -- for third party, API access (User it for Terraform)
+## Setting up Azure service principal with Azure CLI -- for third party, API access (User it for Terraform)
 
 ![image](https://user-images.githubusercontent.com/13016162/71341098-ed908580-257e-11ea-9ba7-375a65a7dbe9.png)
 
