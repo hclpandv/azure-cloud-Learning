@@ -15,3 +15,15 @@
 ![image](https://user-images.githubusercontent.com/13016162/71369015-7df6b680-25cf-11ea-843f-742119f20bd4.png)
 
 ![image](https://user-images.githubusercontent.com/13016162/71369629-5b659d00-25d1-11ea-9168-adf29a4be25a.png)
+
+## List Resources in resource group
+
+```bash
+# Azure-cli
+az resource list --resource-group 'viki-resource-group'
+```
+
+```powershell
+# Powershell
+Get-AzResource -ResourceGroupName viki-resource-group
+```
