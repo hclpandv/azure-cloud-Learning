@@ -26,7 +26,7 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ![image](https://user-images.githubusercontent.com/13016162/71341172-1a449d00-257f-11ea-84aa-3d0e17c102b7.png)
 
 
-## Setting up Azure service principal with Azure CLI -- for third party, API access (User it for Terraform)
+## Setting up Azure service principal with Azure CLI -- for third party, API access (Use it for Terraform)
 
 ![image](https://user-images.githubusercontent.com/13016162/71341098-ed908580-257e-11ea-9ba7-375a65a7dbe9.png)
 
