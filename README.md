@@ -1,5 +1,5 @@
 
-[Chapter 1 : Azure Management Tools](azure-management-tools-authentication.md)  
+[Chapter 1 : How to manage Azure resources/services?](azure-management-tools-authentication.md)  
 [Chapter 2 : Azure Resource Group](azure-rg.md)  
 [Chapter 3 : Azure Storage Account](azure-storage-account.md)  
 [Chapter 4 : Azure Networks](azure-networks.md)  
