@@ -7,7 +7,7 @@ az vm availability-set list --output table
 
 ![image](https://user-images.githubusercontent.com/13016162/71400089-af14cc80-264b-11ea-8818-bac252050f4b.png)
 
-* List VMs in an availability set
+* List VMs in an availability set (a lil tricky and indirect way)
 
 ```bash
 az vm show -d \
@@ -15,3 +15,6 @@ az vm show -d \
 --query "[].{VMS:name, PublicIps:publicIps}" \
 -o table
 ```
+
+![image](https://user-images.githubusercontent.com/13016162/71403653-631b5500-2656-11ea-8581-d2506e8d7bc1.png)
+
