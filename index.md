@@ -9,7 +9,9 @@
 [Chapter 8 : Azure Scale Sets](azure-scale-sets-6.md)  
 [Chapter 9 : Azure Backup and Site Recovery](azure-backup-site-recovery.md)  
 
-[Azure Cheat Sheet](azure-cheat-sheet.md)  
+## Azure Cheat Sheets
+---
+[azure-cli cheatsheet](azure-cli-cheatsheet.md)
   
   
   
