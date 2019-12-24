@@ -25,7 +25,7 @@ Resources
 # find images with Linux in name
 azure vm image list | grep "Linux"
 
-# start a new VM (in asm mode)
+# create a new VM (in asm mode)
 azure vm create ${vm_name} ${image_name} -u ${azureuser} -p "${password}" -z "Small" -e -l "West US"
 
 # List VMs disks
