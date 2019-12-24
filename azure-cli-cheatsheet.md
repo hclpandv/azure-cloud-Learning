@@ -1,10 +1,15 @@
+Installation on Ubuntu
+
 ```bash
 # install azure-cli
 
 sudo apt-get install nodejs-legacy
 sudo apt-get install npm
 sudo npm install -g azure-cli
+```
+Login
 
+```bash
 # This will output an url and a device code for you to use browser to login  
 azure login
 
@@ -13,7 +18,10 @@ azure login -u <your organizational ID email address>
 
 # This will login in using a service principal
 azure login -u "<service-principal-id>" -p "<key>" --service-principal --tenant "<tenant-id>"
+```
+Resources
 
+```bash
 # find images with Linux in name
 azure vm image list | grep "Linux"
 
