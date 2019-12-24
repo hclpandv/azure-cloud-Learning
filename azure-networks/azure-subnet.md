@@ -1,4 +1,4 @@
 [<<back](index.md)
 ## Azure Subnet
 
-* Split you network into multiple subnets (ip based)
+* Split you private network into multiple subnets (ip based)
