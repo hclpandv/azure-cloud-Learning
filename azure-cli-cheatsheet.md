@@ -1,3 +1,4 @@
+[<<back](index.md)
 Installation on Ubuntu
 
 ```bash
