@@ -18,3 +18,12 @@ az vm show -d \
 
 ![image](https://user-images.githubusercontent.com/13016162/71403653-631b5500-2656-11ea-8581-d2506e8d7bc1.png)
 
+* Simply get VM ids in Avail set
+
+```bash
+az vm availability-set show --resource-group viki-resource-group --name viki-webserver-avail-set --query "virtualMachines[].id" --output tsv
+```
+```powershell
+(Get-AzAvailabilitySet -ResourceGroupName viki-resource-group -Name viki-webserver-avail-set).VirtualMachinesReferences
+```
+
