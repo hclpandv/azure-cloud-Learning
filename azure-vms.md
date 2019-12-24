@@ -1,3 +1,4 @@
+[<<back](index.md)
 ## Azure VMs
 
 * Lets Straight away start creating a VM 
