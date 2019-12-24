@@ -1,3 +1,4 @@
+[<<back](index.md)
 ## Azure Availability Set
 
 ```bash
