@@ -1,6 +1,7 @@
+[<<back](index.md)
 ## Resource Group
 
-* A top leval container which holds all you resources in azure.
+* High Level Logical Container to group all Azure resources, for management, security, billing etc 
 * You cant not create any resource without creating a resource group.  
 * Like a project in GCP etc.
 * You must specify the Location where your resource group is created
