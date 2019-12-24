@@ -23,6 +23,7 @@ azure login -u "<service-principal-id>" -p "<key>" --service-principal --tenant 
 Usage
 
 ```bash
+#!/usr/bin/env bash
 az [ group ] [ subgroup ] [ command ] {parameters}
 ```
 
