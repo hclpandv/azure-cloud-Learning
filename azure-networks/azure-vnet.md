@@ -2,7 +2,7 @@
 ## Azure Networks
 
 * Azure calls it vnet (aws calls VPC - Virtual Private Cloud)
-* Abstraction of your own network on cloud
+* Abstraction of your own private network on cloud
 * Must be in a resource group
 * Address Space in CIDR i.e. `11.66.0.0/22`
 
