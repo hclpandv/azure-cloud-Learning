@@ -5,7 +5,13 @@
 * Online Azure Shell  
 * No local install needed  
 * Both Powershell and Bash supported  
-* Azure Module, Terraform already installed   
+* Azure Module, Terraform already installed  
+
+![image](https://user-images.githubusercontent.com/13016162/71394577-27719280-2638-11ea-8d98-d2aeec5bf498.png)
+
+![image](https://user-images.githubusercontent.com/13016162/71394857-6e13bc80-2639-11ea-8de5-258a03d0f5f0.png)
+
+
 3. #### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)  
 
 ```powershell
