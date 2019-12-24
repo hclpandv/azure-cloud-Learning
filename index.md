@@ -10,8 +10,8 @@
 [Chapter 9 : Azure Backup and Site Recovery](azure-backup-site-recovery.md)  
 
 Azure Cheat Sheets  
-[azure-cli cheatsheet](azure-cli-cheatsheet.md)
-[Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)
+[azure-cli cheatsheet](azure-cli-cheatsheet.md)  
+[Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
 
   
   
