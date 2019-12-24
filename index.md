@@ -18,6 +18,6 @@ Azure Cheat Sheets
   
   
 ---
-[Source of GitHub](https://github.com/hclpandv/azure-cloud-training-material)  
+[Source on GitHub](https://github.com/hclpandv/azure-cloud-training-material)  
 
 
