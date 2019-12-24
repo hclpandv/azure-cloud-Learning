@@ -45,7 +45,10 @@ export AZURE_STORAGE_ACCOUNT=$account_name
 export AZURE_STORAGE_ACCESS_KEY=$account_key
 
 # Create a VM image based on a storage file
-azure vm image create ${image_name} --os linux  -l 'West Europe' --blob-url https://${storage_account}.blob.core.windows.net:443/vms/${image_name}.vhd -v
+azure vm image create ${image_name} \
+  --os linux  -l 'West Europe' \
+  --blob-url https://${storage_account}.blob.core.windows.net:443/vms/${image_name}.vhd \
+  -v
 
 # Share a file (a vm image for example) with the world:
 azure storage blob sas create -a ${storage_account} --container ${container} --blob ${filename} --permissions r
