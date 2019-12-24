@@ -1,3 +1,4 @@
+[<<back](index.md)
 ## Azure Management Tools and Authentication
 
 1. #### [Azure Portal](https://portal.azure.com/) 
