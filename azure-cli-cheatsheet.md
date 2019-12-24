@@ -19,6 +19,13 @@ azure login -u <your organizational ID email address>
 # This will login in using a service principal
 azure login -u "<service-principal-id>" -p "<key>" --service-principal --tenant "<tenant-id>"
 ```
+
+Usage
+
+```bash
+az [ group ] [ subgroup ] [ command ] {parameters}
+```
+
 Resources
 
 ```bash
