@@ -26,6 +26,5 @@ $frontendSubnet = New-AzVirtualNetworkSubnetConfig @FrontendSubnetConfig
 $backendSubnet  = New-AzVirtualNetworkSubnetConfig @BackendSubnetConfig
 
 New-AzVirtualNetwork -Name $VnetName -ResourceGroupName $ResourceGroup `
--Location centralus -AddressPrefix "11.66.0.0/22" `
--Subnet $frontendSubnet,$backendSubnet
+-Location centralus -AddressPrefix $VnetAddress -Subnet $frontendSubnet,$backendSubnet
 ```
