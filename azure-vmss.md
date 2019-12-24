@@ -1,3 +1,4 @@
+[<<back](index.md)
 ## Azure Virtual Machine Scale Set (VMSS)
 
 ```bash
