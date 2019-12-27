@@ -14,11 +14,11 @@ Azure Cheat Sheets
 [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
 
 Azure Infra Build Automation Scripts   
-[PowerShell](azure-infra-build-automation/azure-powershell/index.md)    
-[Azure-Cli](azure-infra-build-automation/azure-cli/index.md)  
-[ARM Templates](azure-infra-build-automation/ARM-Templates/index.md)  
-[Terraform](azure-infra-build-automation/terraform/index.md)  
-[Ansible](azure-infra-build-automation/ansible/index.md)  
+[PowerShell](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-powershell)    
+[Azure-Cli](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-cli)  
+[ARM Templates](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/arm-templates)  
+[Terraform](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/terraform)  
+[Ansible](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/ansible)  
   
   
   
