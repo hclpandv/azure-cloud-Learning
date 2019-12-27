@@ -6,7 +6,7 @@
 * Like a project in GCP etc.
 * You must specify the Location where your resource group is created
 
-> everything which lives together, managed together and die together should stay in a same resource group
+> everything which lives together, managed together and die together should stay in a same resource group. if you delete resource group all the resources it contains will also be deleted
 
 ## Location
 
