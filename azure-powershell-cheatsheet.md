@@ -1,3 +1,4 @@
+[<<back](index.md)
 ```powershell
 # To log in to Azure Resource Manager
 Login-AzureRmAccount
