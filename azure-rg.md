@@ -8,6 +8,15 @@
 
 > everything which lives together, managed together and die together should stay in a same resource group. if you delete resource group all the resources it contains will also be deleted
 
+* Teardown my azure cloud 
+```powershell
+Get-AzResourceGroup | 
+Where-Object {($_.ResourceGroupName -notlike "cloud-shell*") -and `
+  ($_.ResourceGroupName -notlike "*vault*") -and `
+  ($_.ResourceGroupName -notlike "Network*")} | `
+Remove-AzResourceGroup -Verbose -Force
+```
+
 ## Location
 
 * Regions where azure services are available globally i.e. westus, westindia, eastus etc
