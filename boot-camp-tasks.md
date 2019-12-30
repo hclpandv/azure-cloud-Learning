@@ -17,7 +17,7 @@ az group list --output table
 az resource list --resource-group vikivm01 --output table
 ```
 
-2. Create :
+2. Create
 * 1 vnet  
 * 2 subnet (frontend, backend)  
 * 1 nsg with inbound ports open 22, 3389, 80 attached to frontend subnet  
