@@ -1,8 +1,8 @@
 [<<back](index.md)
 ## Azure Management Tools and Authentication
 
-1. #### [Azure Portal](https://portal.azure.com/) 
-2. #### [Azure Cloud Shell](https://shell.azure.com/)
+#### [Azure Portal](https://portal.azure.com/) 
+#### [Azure Cloud Shell](https://shell.azure.com/)
 Online Azure Shell  
 Both Powershell and Bash supported  
 Azure Module, git, ansible, Terraform already installed  
@@ -11,16 +11,13 @@ Azure Module, git, ansible, Terraform already installed
 
 ![image](https://user-images.githubusercontent.com/13016162/71394857-6e13bc80-2639-11ea-8de5-258a03d0f5f0.png)
 
-
-3. #### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)  
+#### Install Powershell Az Module (Powershell 5.1 required, can be installed on Powershell Core 6.x versions)  
 
 ```powershell
 # Powershell
 Install-Module -Name Az -AllowClobber -Scope CurrentUser
 ```
-
-
-4. #### Install Azure CLI (Windows MSI based Install, Ubuntu apt based --- Issues with WSL)
+#### Install Azure CLI (Windows MSI based Install, Ubuntu apt based --- Issues with WSL)
 
 ```powershell
 # Powershell
