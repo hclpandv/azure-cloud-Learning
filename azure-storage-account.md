@@ -13,7 +13,7 @@ An Azure storage account contains all of your Azure Storage data objects: blobs,
 
 ![image](https://user-images.githubusercontent.com/13016162/71568054-2635df00-2aea-11ea-9d3c-a66f8afae43c.png)
 
-  
+* Below are types of storage you can have in general porpose account  
   
 
 ![image](https://user-images.githubusercontent.com/13016162/71568122-aeb47f80-2aea-11ea-8fc7-d535f305759f.png)
