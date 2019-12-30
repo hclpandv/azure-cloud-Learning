@@ -1,4 +1,4 @@
-## Azure Bootcamp 
+## Azure bootcamp tasks
 
 1. Create a VM with default values (Use Powershell, too)
 
