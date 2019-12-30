@@ -17,7 +17,7 @@ az group list --output table
 az resource list --resource-group vikivm01 --output table
 ```
 
-2. #### Create a VM with custom network config using Azure Portal
+2. #### Create a VM with custom network config using Azure Portal and Poweshell
   
 ```  
   * 1 vnet  
@@ -26,3 +26,7 @@ az resource list --resource-group vikivm01 --output table
   * 1 nic with 1 public Ip attached to frontend subnet 
   * 1 VM attached to frontend subnet and no nsg to nic
 ```
+
+3. #### Export deployment template from ResourceGroup of previous exercise
+
+12. #### Create a custom deployment template and deploy
