@@ -3,10 +3,9 @@
 
 1. #### [Azure Portal](https://portal.azure.com/) 
 2. #### [Azure Cloud Shell](https://shell.azure.com/)
-* Online Azure Shell  
-* No local install needed  
-* Both Powershell and Bash supported  
-* Azure Module, Terraform already installed  
+Online Azure Shell  
+Both Powershell and Bash supported  
+Azure Module, git, ansible, Terraform already installed  
 
 ![image](https://user-images.githubusercontent.com/13016162/71394577-27719280-2638-11ea-8d98-d2aeec5bf498.png)
 
@@ -39,6 +38,5 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ## Setting up Azure service principal with Azure CLI -- for third party, API access (Use it for Terraform)
 
 ![image](https://user-images.githubusercontent.com/13016162/71341098-ed908580-257e-11ea-9ba7-375a65a7dbe9.png)
-
 
 ![image](https://user-images.githubusercontent.com/13016162/71341855-0f8b0780-2581-11ea-9f22-89e94dbd956a.png)
