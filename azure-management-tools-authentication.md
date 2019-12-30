@@ -63,8 +63,7 @@ az ad sp credential reset --name vikiServicePrincipal
 ```bash
 az role assignment create --assignee APP_ID --role Reader
 az role assignment delete --assignee APP_ID --role Contributor
-```bash
-
+```
 Login using Service Principal
 
 ```bash
