@@ -43,9 +43,9 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 ```bash
 # Create Service Principal with password string shown in output
-az ad sp create-for-rbac --name ServicePrincipalName
+az ad sp create-for-rbac --name vikiSp
 # Create and assign your certificate
-az ad sp create-for-rbac --name ServicePrincipalName --cert @/path/to/cert.pem
+az ad sp create-for-rbac --name vikiSp --cert @/path/to/cert.pem
 # Create sp and a new cert too (cab be stored in an azure vault)
 az ad sp create-for-rbac --name vikisp --create-cert #----cert vikiSpCert --keyvault viki-vault
 # Retrieve cert from vault
@@ -61,6 +61,13 @@ az keyvault secret show --name vikiSpCert --vault-name viki-vault
 ```bash
 az ad sp credential reset --name vikiServicePrincipal
 ```
+>The default role for a service principal is Contributor. This role has full permissions to read and write to an Azure account. The Reader role is more restrictive, with read-only access. For more information on Role-Based Access Control (RBAC) and roles, see RBAC: Built-in roles.
+
+```bash
+az role assignment create --assignee APP_ID --role Reader
+az role assignment delete --assignee APP_ID --role Contributor
+```bash
+
 Login using Service Principal
 
 ```bash
