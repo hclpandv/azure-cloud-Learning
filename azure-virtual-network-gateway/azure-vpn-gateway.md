@@ -17,3 +17,7 @@ Connect end points via azure VPN client
 Connect two vnets  
 [Site-to-Site](.)  
 Connect On-premises or other cloud sites  
+
+#### A Hybrid of vnet peering and VPN gatway  
+
+![image](https://user-images.githubusercontent.com/13016162/71642471-a36f7880-2cd1-11ea-9da8-ff7b8622b99f.png)  
