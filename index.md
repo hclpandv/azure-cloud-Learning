@@ -7,7 +7,8 @@
 [Chapter 6 : Azure Load Balancer/Application Gateway/Traffic Manager](azure-alb-ang-atm.md)    
 [Chapter 7 : Azure Availability Set](azure-avail-set.md)  
 [Chapter 8 : Azure Virtual Machine Scale Set](azure-vmss.md)  
-[Chapter 9 : Azure Backup and Site Recovery](azure-backup-site-recovery.md)  
+[Chapter 9 : Azure Virtual Network Gatway(VPN Gateway, ExpressRoute Gateway)](azure-virtual-network-gateway/index.md)  
+[Chapter 10 : Azure Backup and Site Recovery](azure-backup-site-recovery.md)  
 
 Azure Cheat Sheets  
 [azure-cli cheatsheet](azure-cli-cheatsheet.md)  
