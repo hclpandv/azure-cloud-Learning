@@ -1,4 +1,4 @@
-[<<back](index.md)
+[Azure Training Material](../index.md) >> [Azure Networks](index.md) >> [vnet](.)
 ## Azure Networks
 
 * Azure calls it vnet (aws calls VPC - Virtual Private Cloud)
