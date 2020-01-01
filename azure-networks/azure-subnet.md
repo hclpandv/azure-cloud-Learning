@@ -1,4 +1,4 @@
-[<<back](index.md)
+[Azure Training Material](../index.md) >> [Azure Networks](index.md) >> [subnet](.)
 ## Azure Subnet
 
 * Split you private network into multiple subnets (ip based)
