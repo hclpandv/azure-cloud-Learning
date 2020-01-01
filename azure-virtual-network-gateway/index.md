@@ -1,4 +1,4 @@
-[Azure Training Material](../../index.md) >> [Azure Virrual Network Gateway]()
+[Azure Training Material]((../index.md)) >> [Azure Virtual Network Gateway](.)
 ## Azure Virrual Network Gateway (VPN Gateway, 	ExpressRoute)
 
 1. #### [VPN Gateway](azure-vpn-gateway.md)  
