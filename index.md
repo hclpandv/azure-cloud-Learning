@@ -8,7 +8,7 @@
 [Chapter 7 : Azure Availability Set](azure-avail-set.md)  
 [Chapter 8 : Azure Virtual Machine Scale Set](azure-vmss.md)  
 [Chapter 9 : Azure Virtual Network Gatway(VPN Gateway, ExpressRoute Gateway)](azure-virtual-network-gateway/index.md)  
-[Chapter 10 : Azure Backup and Site Recovery](azure-backup-site-recovery.md)  
+[Chapter 10 : Azure Backup and Site Recovery](azure-backup-site-recovery/index.md)  
 [Chapter 11 : Azure Automation account](azure-automation-account.md)   
 
 Azure Cheat Sheets  
