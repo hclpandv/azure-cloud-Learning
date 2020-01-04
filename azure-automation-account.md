@@ -14,3 +14,6 @@
 ![image](https://user-images.githubusercontent.com/13016162/71761281-1dc91400-2eef-11ea-9911-a8a523a00769.png)
 
 
+#### A very basic automation runbook could be start-stop VM on a schedule time
+
+
