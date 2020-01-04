@@ -22,10 +22,10 @@ An NSG is a firewall, albeit a very basic one.  It’s a software defined soluti
 
 #### Typical Use Case
 
-* Create a workload subnet, jumpbox subnet and AzureFirewallSubnet (Jumpbox VM will be able to connect workload VMs where traffic is routed via firewall) 
+1. Create a workload subnet, jumpbox subnet and AzureFirewallSubnet (Jumpbox VM will be able to connect workload VMs where traffic is routed via firewall) 
 
 
-* Hub-Spoke vnet setup
+2. Hub-Spoke vnet setup
 
 ![image](https://user-images.githubusercontent.com/13016162/71760701-ac399780-2ee7-11ea-8f74-6c4b440f0fd7.png)
 
