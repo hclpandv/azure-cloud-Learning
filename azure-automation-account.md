@@ -8,3 +8,9 @@
 
 
 ![image](https://user-images.githubusercontent.com/13016162/71761024-f6247c80-2eeb-11ea-964e-1d312c9d0a39.png)
+
+>Azure automation can be used to automate on-premise resources using Hybrid Runbook Worker
+
+![image](https://user-images.githubusercontent.com/13016162/71761281-1dc91400-2eef-11ea-9911-a8a523a00769.png)
+
+
