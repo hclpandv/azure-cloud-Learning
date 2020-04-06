@@ -1,11 +1,33 @@
 ### Query with machine type
 
+
+* Get all Subscriptions
+
+```
+resourcecontainers
+| where type == "microsoft.resources/subscriptions"
+| project name, subscriptionId
+```
+
+* Get all VMs order by Name
+
 ```
 Resources
 | where type =~ 'Microsoft.Compute/virtualMachines'
 | project name, resourceGroup, location, MachineType = properties.hardwareProfile.vmSize, subscriptionId, type
 | order by name desc
 ```
+
+* Get all VMs count by subscriptionId
+
+```
+Resources
+| where type =~ 'Microsoft.Compute/virtualMachines'
+| project name, resourceGroup, location, MachineType = properties.hardwareProfile.vmSize, subscriptionId, type
+| summarize count () by subscriptionId
+```
+
+* VMs with Size, Pvt Ip
 
 ```
 Resources
