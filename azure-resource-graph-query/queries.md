@@ -26,4 +26,5 @@ Resources
 ) on nicId
 | project-away nicId1
 | project subscriptionId, vmName, resourceGroup, location, privateIp, hostName, MachineType, os, sku
+| order by subscriptionId desc
 ```
