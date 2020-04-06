@@ -15,6 +15,9 @@ Azure Cheat Sheets
 [azure-cli cheatsheet](azure-cli-cheatsheet.md)  
 [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
 
+Azure Resource Graph  
+[queries](azure-resource-graph/queries.md)  
+
 Azure Infra Build Automation Scripts   
 [PowerShell](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-powershell)    
 [Azure-Cli](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-cli)  
