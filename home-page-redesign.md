@@ -11,9 +11,7 @@
 [Chapter 10 : Azure Backup and Site Recovery](azure-backup-site-recovery/index.md)  
 [Chapter 11 : Azure Automation account](azure-automation-account.md)   
 
-Azure Cheat Sheets  
-
-| Topics | Topics |
+| Azure | Cheat Sheets |
 | --- | --- |
 | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   |
 | [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md) | TBC |
