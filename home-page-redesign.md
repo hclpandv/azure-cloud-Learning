@@ -12,7 +12,13 @@
 [Chapter 11 : Azure Automation account](azure-automation-account.md)   
 
 Azure Cheat Sheets  
-[azure-cli cheatsheet](azure-cli-cheatsheet.md)  
+
+| Topics | Topics |
+| --- | --- |
+| [azure-cli cheatsheet](azure-cli-cheatsheet.md)   | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   |
+| `git diff` | Show file differences that **haven't been** staged |
+
+
 [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
 
 Azure Resource Graph  
