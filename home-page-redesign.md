@@ -14,7 +14,7 @@
 | Azure Cheat Sheets |   |
 | --- | --- |
 | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   |
-| [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md) | TBC |
+| [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md) |  |
 
 Azure Resource Graph  
 [queries](azure-resource-graph/queries.md)  
@@ -23,7 +23,7 @@ Azure Resource Graph
 | --- | --- |
 | [PowerShell](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-powershell)  | [Azure-Cli](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/azure-cli)   |
 | [ARM Templates](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/arm-templates)  | [Terraform](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/terraform)   |
-| [Ansible](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/ansible)  ) |  |
+| [Ansible](https://github.com/hclpandv/azure-infra-build-automation/tree/dev/ansible) |  |
   
   
 
