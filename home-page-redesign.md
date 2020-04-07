@@ -16,8 +16,9 @@
 | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   |
 | [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md) |  |
 
-Azure Resource Graph  
-[queries](azure-resource-graph/queries.md)  
+| Azure Resource Graph   |   |
+| --- | --- |
+| [queries](azure-resource-graph/queries.md)  |   |
 
 | Azure Infra Build Automation Scripts  |   |
 | --- | --- |
