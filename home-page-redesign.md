@@ -16,10 +16,7 @@ Azure Cheat Sheets
 | Topics | Topics |
 | --- | --- |
 | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   | [azure-cli cheatsheet](azure-cli-cheatsheet.md)   |
-| `git diff` | Show file differences that **haven't been** staged |
-
-
-[Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
+| [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md) | TBC |
 
 Azure Resource Graph  
 [queries](azure-resource-graph/queries.md)  
