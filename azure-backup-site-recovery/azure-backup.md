@@ -2,6 +2,8 @@
 
 ## Azure Backup
 
+The Azure Backup service provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud.
+
 `Virtual Machines -> Operations -> Azure Backup`
 
 ![image](https://user-images.githubusercontent.com/13016162/71759724-3f1e0600-2ed7-11ea-8a76-70583106e6cf.png)
