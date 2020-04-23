@@ -31,6 +31,23 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 ![image](https://user-images.githubusercontent.com/13016162/71341172-1a449d00-257f-11ea-84aa-3d0e17c102b7.png)
 
+## Switching Subscriptions across Tenents
+
+#### Az-Cli
+```bash
+# Get the Current subscription
+az account show
+# Switch subscription (you can switch across tenents)
+az account set --subscription my-subscription-name
+```
+
+#### Azure PowerShell
+```powershell
+# Get the Current subscription
+Get-AzContext
+# Switch subscription (you can switch across tenents)
+Set-AzContext -subscription my-subscription-name
+```
 
 ## Setting up Azure service principal with Azure CLI -- for third party, app access (Use it for Terraform)
 
