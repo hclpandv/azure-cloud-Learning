@@ -49,6 +49,17 @@ Get-AzContext
 Set-AzContext -subscription my-subscription-name
 ```
 
+## Using Azure Managed Indentity VM
+
+```bash
+# Azure Cli
+az login --identity
+
+# API
+curl 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com/' -H Metadata:true
+
+```
+
 ## Setting up Azure service principal with Azure CLI -- for third party, app access (Use it for Terraform)
 
 >Automated tools that use Azure services should always have restricted permissions. Instead of having applications sign in as a fully privileged user, Azure offers service principals.
