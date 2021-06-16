@@ -37,6 +37,8 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```bash
 # Get the Current subscription
 az account show
+# Find out what roles you/others have
+az role assignment list --output table
 # Switch subscription (you can switch across tenents)
 az account set --subscription my-subscription-name
 ```
