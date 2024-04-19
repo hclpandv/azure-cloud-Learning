@@ -27,6 +27,7 @@ cfg: { // Application Insights Configuration
 Azure Cheat Sheets  
 [azure-cli cheatsheet](azure-cli-cheatsheet.md)  
 [Azure Powershell cheatsheet](azure-powershell-cheatsheet.md)  
+[VLSM (CIDR) Subnet Calculator](http://www.vlsmcalc.com/)   
 
 Azure Resource Graph  
 [queries](azure-resource-graph/queries.md)  
